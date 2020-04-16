@@ -1,0 +1,58 @@
+.topnav {
+    background-color: black;
+    size: 300px;
+    width: 1342px;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        background-color: black;
+        size: 100px;
+        width: 340px;
+    }
+    .topnav img {
+        margin: 0px;
+        size: 300px;
+        width: 320px;
+    }
+}
+
+.informacoes {
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+}
+
+.endereco {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.horario {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.agendamento {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        display: flex;
+        margin-left: 85px;
+    }
+    .footer img {
+        size: 60px;
+        width: 50px;
+    }
+}
