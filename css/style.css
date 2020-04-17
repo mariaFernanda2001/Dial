@@ -4,7 +4,7 @@
     width: 1342px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 900px) {
     .topnav {
         background-color: black;
         size: 100px;
@@ -13,46 +13,33 @@
     .topnav img {
         margin: 0px;
         size: 300px;
-        width: 320px;
+        width: 340px;
     }
 }
 
-@media (max-width:667px) {
+@media (max-width:1200px) {
     .topnav {
         background-color: black;
         size: 100px;
-        width: 340px;
+        width: 380px;
     }
     .topnav img {
         margin: 0px;
         size: 300px;
-        width: 320px;
+        width: 378px;
     }
 }
 
-@media (max-width:736px) {
+@media (max-width:1500px) {
     .topnav {
         background-color: black;
         size: 100px;
-        width: 340px;
+        width: 410px;
     }
     .topnav img {
         margin: 0px;
         size: 300px;
-        width: 320px;
-    }
-}
-
-@media (max-width:812px) {
-    .topnav {
-        background-color: black;
-        size: 100px;
-        width: 340px;
-    }
-    .topnav img {
-        margin: 0px;
-        size: 300px;
-        width: 320px;
+        width: 410px;
     }
 }
 
@@ -85,10 +72,10 @@
     margin-left: 300px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 900px) {
     .footer {
         display: flex;
-        margin-left: 85px;
+        margin-left: 110px;
     }
     .footer img {
         size: 60px;
@@ -96,10 +83,10 @@
     }
 }
 
-@media (max-width:667px) {
+@media (max-width:1200px) {
     .footer {
         display: flex;
-        margin-left: 85px;
+        margin-left: 110px;
     }
     .footer img {
         size: 60px;
@@ -107,21 +94,10 @@
     }
 }
 
-@media (max-width:736px) {
+@media (max-width:1500px) {
     .footer {
         display: flex;
-        margin-left: 85px;
-    }
-    .footer img {
-        size: 60px;
-        width: 50px;
-    }
-}
-
-@media (max-width:812px) {
-    .footer {
-        display: flex;
-        margin-left: 85px;
+        margin-left: 110px;
     }
     .footer img {
         size: 60px;
