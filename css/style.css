@@ -45,6 +45,9 @@
 }
 
 @media screen and (max-width: 590px) {
+    .exemplos h2 {
+        display: flex;
+    }
     .exemplos img {
         display: fixed;
         margin-left: 70px;
@@ -54,6 +57,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    .exemplos h2 {
+        display: flex;
+    }
     .exemplos img {
         display: fixed;
         margin-left: 70px;
